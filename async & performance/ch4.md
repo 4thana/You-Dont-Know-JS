@@ -1911,7 +1911,7 @@ Such realization also serves as a conceptual base for a more sophisticated async
 
 ## Thunks
 
-So far, we've made the assumption that `yield`ing a promise from a generator -- and having that promise resume the generator via a helper utility like `run(..)` -- was the best possible way manage asynchrony with generators. To be clear, it is.
+So far, we've made the assumption that `yield`ing a promise from a generator -- and having that promise resume the generator via a helper utility like `run(..)` -- was the best possible way to manage asynchrony with generators. To be clear, it is.
 
 But, we skipped over another pattern that has some mildly widespread adoption, so in the interest of completeness we'll take a brief look at it.
 
